@@ -1,0 +1,72 @@
+@font-face {
+	font-family: Scriptin;
+	src:url("../assets/fonts/SCRIPTIN.ttf");
+}
+@font-face {
+	font-family: alegreya;
+	src:url("../assets/fonts/Alegreya-Regular.ttf");
+}
+.name-container{
+	margin-top: 150px;
+}
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+.contain-to-grid {
+  background: white; }
+.top-bar {
+  background: white;
+}
+ul li{
+	display: inline;
+	color: #F05F75;
+}
+ul li:hover{
+  color: white;
+  background-color:#F05F75;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.name-container h1{
+	font-family: alegreya;
+	color: white;
+}
+.big-font h1{
+	font-family: Scriptin;
+	font-size: 60px;
+	color: white;
+	font-weight: bolder;
+}
+
+.th {
+    border-radius: 8px; }
+.contain-to-grid{
+	margin-top: 100px;
+}
+.button {
+	background-color: #A15C96;
+}
+#slide-wdft h2{
+	font-family: alegreya;
+	color: #F05F75;
+}
+.accordion{
+	color: #F05F75;
+}
+.accordion .accordion-navigation > a, .accordion dd > a {
+      background: #A15C96;
+      color: #ffffff;
+}
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+        background: #A15C96; }
+        .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+      background: #DE718B; }

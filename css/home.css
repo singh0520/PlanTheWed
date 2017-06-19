@@ -1,0 +1,38 @@
+@font-face {
+	font-family: alegreya;
+	src:url("../assets/fonts/Alegreya-Regular.ttf");
+}
+.dashbar .button{
+	background-color: #F07386;
+}
+
+.name-container h1{
+	font-family: alegreya;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+.datetowed h3{
+	font-family: alegreya;
+	color: #F05F75;
+}
+*{
+	font-family: alegreya;
+}
+.centerButton .button {
+  background-color: #D5D539;
+  color: white;
+  font-family: alegreya;
+}
+.logo h1{
+	font-family: allura;
+	color: white;
+	font-size: 140px;
+	letter-spacing: 10px;
+	word-spacing: 40px;
+}

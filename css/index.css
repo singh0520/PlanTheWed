@@ -1,0 +1,31 @@
+@font-face {
+	font-family: allura;
+	src:url("../assets/fonts/Allura.ttf");
+}
+.header h1 , .reveal-modal h3{
+	font-family: allura;
+	color: #F05F75;
+}
+.demo-tour{
+	color: #F05F75;
+	position: relative;
+}
+.footer {
+	text-align: center;
+	background-color: rgb(100,100,100);
+}
+.footer p{
+	color: white;
+}
+body {  
+    width:contain;  
+    height:auto;  
+    margin:auto;  
+    background:url(/css/images/overlay.png) , url(../assets/img/rsvp.jpg) repeat 0 0;
+}  
+div#n {  
+    width:cover;  
+    height:cover;  
+    margin:auto;  
+}  
+ 
